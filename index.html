@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f8eee7">
+    <meta name="description" content="Uma surpresa de aniversário feita com carinho para Leticia.">
+    <title>Feliz aniversário para o amor da minha vida</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page-shell">
+        <header class="topbar">
+            <a class="signature" href="#inicio" aria-label="Início">com carinho Thomas <span aria-hidden="true">♥</span></a>
+            <div class="topbar-actions">
+                <span class="topbar-note">um dia todinho seu</span>
+                <button class="music-tab" id="music-tab" type="button" aria-expanded="false" aria-controls="music-panel">
+                    <span aria-hidden="true">♫</span> Música
+                </button>
+            </div>
+        </header>
+
+        <section class="music-panel" id="music-panel" aria-label="Tocar música" hidden>
+            <div class="music-panel-heading">
+                <span class="music-note-icon" aria-hidden="true">♫</span>
+                <div>
+                    <p class="music-title">Nossa música</p>
+                    <p class="music-status" id="music-status" aria-live="polite">Aliança · Tribalistas</p>
+                </div>
+            </div>
+            <button class="music-file-button" id="play-featured-music" type="button">Abrir Aliança · Tribalistas</button>
+            <iframe id="spotify-player" title="Aliança, Tribalistas no Spotify" width="100%" height="152" hidden allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </section>
+
+        <section class="birthday" id="inicio" aria-labelledby="birthday-title">
+            <div class="birthday-heading">
+                <h1 id="birthday-title">Feliz aniversário<br><span>para o amor<br>da minha vida!</span></h1>
+            </div>
+
+            <p class="intro message-placeholder">FELIZ ANIVERSÁRIO PARA O AMOR DA MINHA VIDA!!
+Nessa data tão especial para mim e para você, meu amor, primeiro tenho que agradecer por ter você na minha vida. Desde que estamos juntos, vivi os melhores momentos da minha vida até agora — e sei que serão para sempre. Neste dia 18 de outubro, nasceu a pessoa que eu mais amo, admiro e de quem tenho orgulho.
+Desde as nossas primeiras conversas, eu já sabia que você era a minha alma gêmea. Na festa da Beatriz, foi tão especial e maravilhoso conversar com você, ver o seu sorriso lindíssimo... Logo depois, começamos a sair apenas nós dois e todos os encontros que tivemos foram marcantes. Eu sempre sentia frio na barriga ao ficar ao seu lado, mas logo passava porque já estávamos de mãos dadas. Adoro quando nossos dedos se entrelaçam e viram um só.
+Lembro do dia certinho do nosso primeiro beijo. A sensação foi tão confortante e maravilhosa que eu nunca tinha sorrido tanto na minha vida! Depois desse dia, fui amando você mais e mais. Todos os sábados saímos e ficamos juntos a tarde inteira, e é tão incrível poder ficar ao seu lado, deitar no seu peito e sentir o seu coração e o seu toque tão doce e macio.
+Hoje, nesse dia tão especial, não irei poder comemorar com você. Mas saiba que, mesmo você estando em outro continente, país e cidade, eu sempre vou estar ao seu lado. Você é tudo para mim, amor, tudo mesmo. Eu acordo pensando em você, durmo pensando em você, penso no que está fazendo e em como está se sentindo. Não consigo imaginar minha vida sem você nem por um segundo; você é o batimento do meu coração que me permite viver, você é a minha felicidade e a minha razão de ser.
+E prometo que vou fazer tudo por você, porque você merece isso e muito mais. Obrigado por ser essa pessoa tão gentil, maravilhosa, linda, atenciosa, inteligente e por ser o amor da minha vida. Obrigado pelas nossas conversas tão aleatórias e também profundas, e por nossas risadas trocadas enquanto nos olhamos, como se o mundo fosse apenas nosso. Você é meu lar, meu porto seguro e minha casa.
+Nossos momentos íntimos são tão incríveis e especiais porque não temos vergonha de demonstrar o amor que sentimos. Obrigado por entender o que eu sinto, o que eu digo e o que penso. É lindo ver como temos gostos diferentes, mas, à medida que nos conhecemos mais, nos tornamos tão parecidos. Obrigado por ser minha namorada, minha futura esposa e minha vida. Eu te amo muito, meu amor!</p>
+
+            <div class="photo-gallery" aria-label="Espaços reservados para fotos de vocês">
+                <div class="photo-placeholder photo-with-image"><img src="image.png" alt="Casal abraçado diante de um muro verde"></div>
+                <div class="photo-placeholder photo-with-image"><img src="WhatsApp Image 2026-10-04 at 01.28.47.jpeg" alt="Casal tirando selfie ao ar livre"></div>
+                <div class="photo-placeholder photo-with-image"><img src="WhatsApp Image 2026-10-04 at 01.28.44 (1).jpeg" alt="Casal se beijando diante de um muro verde"></div>
+                <div class="photo-placeholder photo-with-image"><img src="WhatsApp Image 2026-10-04 at 01.28.44.jpeg" alt="Casal sentado lado a lado com roupas pretas"></div>
+                <div class="photo-placeholder photo-with-image"><img src="WhatsApp Image 2026-08-27 at 22.22.47.jpeg" alt="Casal abraçado ao ar livre com filtro de cachorro"></div>
+                <div class="photo-placeholder photo-with-image"><img src="WhatsApp Image 2026-08-27 at 20.26.27.jpeg" alt="Casal abraçado deitado no sofá"></div>
+            </div>
+
+        </section>
+
+        <footer class="page-footer"><span>feito com amor</span><span class="footer-heart" aria-hidden="true">♥</span><span>para Leticia</span></footer>
+    </main>
+    <script>
+        const musicTab = document.querySelector('#music-tab');
+        const musicPanel = document.querySelector('#music-panel');
+        const musicStatus = document.querySelector('#music-status');
+        const playFeaturedMusic = document.querySelector('#play-featured-music');
+        const spotifyPlayer = document.querySelector('#spotify-player');
+
+        musicTab.addEventListener('click', () => {
+            const isOpen = musicTab.getAttribute('aria-expanded') === 'true';
+            musicTab.setAttribute('aria-expanded', String(!isOpen));
+            musicPanel.hidden = isOpen;
+        });
+
+        playFeaturedMusic.addEventListener('click', () => {
+            spotifyPlayer.src = 'https://open.spotify.com/embed/track/5lLKJdDPy7qbsta6d88lKE?utm_source=generator';
+            spotifyPlayer.hidden = false;
+            musicStatus.textContent = 'Aliança · Tribalistas · toque em play no Spotify';
+        });
+
+    </script>
+</body>
+</html>
